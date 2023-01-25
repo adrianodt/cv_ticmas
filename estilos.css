@@ -64,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     border-bottom: 1px solid rgb(179, 125, 125);
 }
 
@@ -104,15 +104,59 @@ body {
 }
 
 .pdf {
+    font-weight: 500;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
     border-bottom: 1px solid rgb(179, 125, 125);
     color: aliceblue;
     text-decoration-line: none;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(179, 125, 125);
+}
+
+.aptitudes {
+    margin-top: 20px;
+    color: antiquewhite;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(179, 125, 125);
+}
+
+.aptitudes h4{
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.aptitudes ul {
+    position: relative;
+    padding-top: 5px;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+.aptitudes li {
+    list-style: circle;
+}
+
+.idiomas {
+    margin-top: 20px;
+    color: antiquewhite;
+    padding-top: 20px;
+}
+
+.idiomas h4 {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.idiomas ul {
+    position: relative;
+    color: aliceblue;
+    font-weight: 200;
+    padding-top: 5px;
 }
 
 .idiomas .porcentaje{
@@ -121,7 +165,7 @@ body {
     height: 6px;
     background: rgb(6, 27, 27) ;
     display: block;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .idiomas .porcentaje div{
@@ -134,7 +178,13 @@ body {
 
 .idiomas li{
     list-style: none;
+    padding-bottom: 10px;
 }
+
 .der li {
     padding-top: 10px;
+}
+
+footer {
+    display: block;
 }
