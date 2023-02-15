@@ -1,205 +1,300 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Adrián Cabezas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="estilo_claro.css" rel="stylesheet" type="text/css" id="tema">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="./styles/estilo_claro.css"
+      rel="stylesheet"
+      type="text/css"
+      id="tema"
+    />
+  </head>
 
-
-</head>
-
-<body>
-
+  <body>
     <div>
-        <button onclick="switchSheet()" class="darkModeSwitch">
-            <span><i class="fa fa-sun-o"></i></span>
-            <span><i class="fa fa-moon-o"></i></span>
-        </button>
+      <button onclick="switchSheet()" class="darkModeSwitch">
+        <span><i class="fa fa-sun-o"></i></span>
+        <span><i class="fa fa-moon-o"></i></span>
+      </button>
     </div>
-
 
     <div class="container">
-        <div class="izq" id="izquierda">
-            <div class="perfil">
-                <div class="foto_perfil">
-                    <img src="foto_perfil.png" class="imgRedonda" alt="foto Adrián Cabezas">
-                </div>
-                <h2>Edgardo Adrián Cabezas</h2>
-                <h3>Front End Developer</h3>
-            </div>
-
-            <div class="contacto">
-                <h4>CONTACTO</h4>
-                <ul>
-                    <li>
-                        <span class="icono"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
-                        <a class="texto" href="https://api.whatsapp.com/send?phone=+543815186074" target="_blank">+54
-                            381 5186074</a>
-                    </li>
-                    <li>
-                        <span class="icono"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <a class="texto" href="mailto:eacbzs@gmail.com">eacbzs@gmail.com</a>
-                    </li>
-                    <li>
-                        <span class="icono"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        <a class="texto" href="https://www.linkedin.com/in/adriano-cabezas/"
-                            target="_blank">adriano-cabezas</a>
-                    </li>
-                    <li>
-                        <span class="icono"><i class="fa fa-github" aria-hidden="true"></i></span>
-                        <a class="texto" href="https://github.com/adrianodt/" target="_blank">adrianodt</a>
-                    </li>
-                    <li>
-                        <span class="icono"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <a class="texto"
-                            href="https://www.google.com/maps/place/Inform%C3%A1tica+Taf%C3%AD/@-26.8578446,-65.7015145,15z/data=!4m5!3m4!1s0x942223134c7599a7:0x657447da2a16a5ba!8m2!3d-26.8611439!4d-65.7106608"
-                            target="_blank">Argentina</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="descarga">
-                <a class="pdf" href="curriculumADRIANCABEZAS3.pdf" download="CV Adrián Cabezas.pdf">Descargar PDF</a>
-
-            </div>
-
-            <div class="aptitudes">
-                <h4>APTITUDES</h4>
-                <ul>
-                    <li>Facilidad de adaptación para trabajo en equipo</li>
-                    <li>Predisposición para aprender nuevas herramientas</li>
-                    <li>Creatividad, flexibilidad y responsabilidad</li>
-                </ul>
-            </div>
-
-            <div class="idiomas">
-                <h4>IDIOMAS</h4>
-                <ul>
-                    <li>
-                        <span class="text">Español</span>
-                        <span class="porcentaje">
-                            <div style="width: 100%"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Inglés</span>
-                        <span class="porcentaje">
-                            <div style="width: 77%"></div>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="hobbies">
-                <h4 class="hobbies_h4">HOBBIES</h4>
-                <ul>
-                    <li><i class="fa fa-futbol-o" aria-hidden="true"></i> Fútbol</li>
-                    <li><i class="fa fa-book" aria-hidden="true"></i> Leer</li>
-                    <li><i class="fa fa-music" aria-hidden="true"></i> Música</li>
-                    <li><i class="fa fa-plane" aria-hidden="true"></i> Viajar</li>
-                </ul>
-
-            </div>
+      <div class="izq" id="izquierda">
+        <div class="perfil">
+          <div class="foto_perfil">
+            <img
+              src="./img/foto_perfil.png"
+              class="imgRedonda"
+              alt="foto Adrián Cabezas"
+            />
+          </div>
+          <h2>Edgardo Adrián Cabezas</h2>
+          <h3>Front End Developer</h3>
         </div>
 
-
-        <div class="der">
-            <div>
-                <div class="educacion">
-                    <h3>EDUCACIÓN</h3>
-                    <ul>
-                        <li>
-                            <h4>Técnico en Informática</h4>
-                            <p>Escuela de Educación Secundaria Técnica E.E.S.T. Nº2 “Ing. César Cipolletti”.</p>
-                            <p>Bahía Blanca - Buenos Aires</p>
-                            <p>Año 2000</p>
-                        </li>
-                        <li>
-                            <h4>Diseño Gráfico</h4>
-                            <p>Escuela Superior de Artes Visuales “Lino Enea Spilimbergo”.</p>
-                            <p>Bahía Blanca - Buenos Aires</p>
-                            <p>2003-2005 (incompleto).</p>
-                        </li>
-                        <li>
-                            <h4>Desarrollador Web Full stack</h4>
-                            <p>Argentina Programa. Ministerio de Desarrollo Productivo Argentina.</p>
-                            <p>1era. etapa #SéProgramar. Octubre - Diciembre 2021.</p>
-                            <p>2da. etapa #YoProgramo. Febrero - Septiembre 2022.</p>
-                        </li>
-                        <li>
-                            <h4>Codo a Codo Inicial</h4>
-                            <p>Buenos Aires Ciudad.</p>
-                            <p>Octubre - Diciembre 2022.</p>
-                        </li>
-                        <li>
-                            <h4>Primeros pasos del desarrollo frontend</h4>
-                            <p>Argentina Programa 4.0 + Ticmas Academy</p>
-                            <p>Diciembre 2022 - Febrero 2023</p>
-                        </li>
-                        <li>
-                            <h4>Bootcamp Desarrollo Front End</h4>
-                            <p>Argentina Programa 4.0 + MindHub</p>
-                            <p>Enero - Marzo 2023</p>
-                        </li>
-
-                    </ul>
-
-                </div>
-                <div class="experiencia">
-                    <h3>EXPERIENCIA</h3>
-                    <ul>
-                        <li>
-                            <h4>Técnico en Informática</h4>
-                            <p>Escuela de Educación Secundaria Técnica E.E.S.T. Nº2 “Ing. César Cipolletti”.</p>
-                            <p>Bahía Blanca - Buenos Aires</p>
-                            <p>Año 2000</p>
-                        </li>
-                        <li>
-                            <h4>Diseño Gráfico</h4>
-                            <p>Escuela Superior de Artes Visuales “Lino Enea Spilimbergo”.</p>
-                            <p>Bahía Blanca - Buenos Aires</p>
-                            <p>2003-2005 (incompleto).</p>
-                        </li>
-                        <li>
-                            <h4>Desarrollador Web Full stack</h4>
-                            <p>Argentina Programa. Ministerio de Desarrollo Productivo Argentina.</p>
-                            <p>1era. etapa #SéProgramar. Octubre - Diciembre 2021.</p>
-                            <p>2da. etapa #YoProgramo. Febrero - Septiembre 2022.</p>
-                        </li>
-                        <li>
-                            <h4>Codo a Codo Inicial</h4>
-                            <p>Buenos Aires Ciudad.</p>
-                            <p>Octubre - Diciembre 2022.</p>
-                        </li>
-                        <li>
-                            <h4>Primeros pasos del desarrollo frontend</h4>
-                            <p>Argentina Programa 4.0 + Ticmas Academy</p>
-                            <p>Diciembre 2022 - Febrero 2023</p>
-                        </li>
-                        <li>
-                            <h4>Bootcamp Desarrollo Front End</h4>
-                            <p>Argentina Programa 4.0 + MindHub</p>
-                            <p>Enero - Marzo 2023</p>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-            </div>
+        <div class="contacto">
+          <h4>CONTACTO</h4>
+          <ul>
+            <li>
+              <span class="icono"
+                ><i class="fa fa-whatsapp" aria-hidden="true"></i
+              ></span>
+              <a
+                class="texto"
+                href="https://api.whatsapp.com/send?phone=+543815186074"
+                target="_blank"
+                >+54 381 5186074</a
+              >
+            </li>
+            <li>
+              <span class="icono"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></span>
+              <a class="texto" href="mailto:eacbzs@gmail.com"
+                >eacbzs@gmail.com</a
+              >
+            </li>
+            <li>
+              <span class="icono"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <a
+                class="texto"
+                href="https://www.linkedin.com/in/adriano-cabezas/"
+                target="_blank"
+                >adriano-cabezas</a
+              >
+            </li>
+            <li>
+              <span class="icono"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></span>
+              <a
+                class="texto"
+                href="https://github.com/adrianodt/"
+                target="_blank"
+                >adrianodt</a
+              >
+            </li>
+            <li>
+              <span class="icono"
+                ><i class="fa fa-globe" aria-hidden="true"></i
+              ></span>
+              <a
+                class="texto"
+                href="https://www.google.com/maps/place/Inform%C3%A1tica+Taf%C3%AD/@-26.8578446,-65.7015145,15z/data=!4m5!3m4!1s0x942223134c7599a7:0x657447da2a16a5ba!8m2!3d-26.8611439!4d-65.7106608"
+                target="_blank"
+                >Argentina</a
+              >
+            </li>
+          </ul>
         </div>
+
+        <div class="descarga">
+          <a
+            class="pdf"
+            href="./img/curriculumADRIANCABEZAS3.pdf"
+            download="CV Adrián Cabezas.pdf"
+            >Descargar PDF</a
+          >
+        </div>
+
+        <div class="aptitudes">
+          <h4>APTITUDES</h4>
+          <ul>
+            <li>Facilidad de adaptación para trabajo en equipo</li>
+            <li>Predisposición para aprender nuevas herramientas</li>
+            <li>Creatividad, flexibilidad y responsabilidad</li>
+          </ul>
+        </div>
+
+        <div class="idiomas">
+          <h4>IDIOMAS</h4>
+          <ul>
+            <li>
+              <span class="text">Español</span>
+              <span class="porcentaje">
+                <div style="width: 100%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Inglés</span>
+              <span class="porcentaje">
+                <div style="width: 77%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hobbies">
+          <h4 class="hobbies_h4">HOBBIES</h4>
+          <ul>
+            <li><i class="fa fa-futbol-o" aria-hidden="true"></i> Fútbol</li>
+            <li><i class="fa fa-book" aria-hidden="true"></i> Leer</li>
+            <li><i class="fa fa-music" aria-hidden="true"></i> Música</li>
+            <li><i class="fa fa-plane" aria-hidden="true"></i> Viajar</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="der">
+        <div class="educacion">
+          <h3>EDUCACIÓN</h3>
+          <ul>
+            <li>
+              <h4>Técnico en Informática</h4>
+              <p>
+                Escuela de Educación Secundaria Técnica E.E.S.T. Nº2 “Ing. César
+                Cipolletti”.
+              </p>
+              <p>Bahía Blanca - Buenos Aires</p>
+              <p>Año 2000</p>
+            </li>
+            <li>
+              <h4>Diseño Gráfico</h4>
+              <p>Escuela Superior de Artes Visuales “Lino Enea Spilimbergo”.</p>
+              <p>Bahía Blanca - Buenos Aires</p>
+              <p>2003-2005 (incompleto).</p>
+            </li>
+            <li>
+              <h4>Desarrollador Web Full stack</h4>
+              <p>
+                Argentina Programa. Ministerio de Desarrollo Productivo
+                Argentina.
+              </p>
+              <p>1era. etapa #SéProgramar. Octubre - Diciembre 2021.</p>
+              <p>2da. etapa #YoProgramo. Febrero - Septiembre 2022.</p>
+            </li>
+            <li>
+              <h4>Codo a Codo Inicial</h4>
+              <p>Buenos Aires Ciudad.</p>
+              <p>Octubre - Diciembre 2022.</p>
+            </li>
+            <li>
+              <h4>Primeros pasos del desarrollo frontend</h4>
+              <p>Argentina Programa 4.0 + Ticmas Academy</p>
+              <p>Diciembre 2022 - Febrero 2023</p>
+            </li>
+            <li>
+              <h4>Bootcamp Desarrollo Front End</h4>
+              <p>Argentina Programa 4.0 + MindHub</p>
+              <p>Enero - Marzo 2023</p>
+            </li>
+          </ul>
+        </div>
+        <div class="experiencia">
+          <h3>EXPERIENCIA</h3>
+          <ul>
+            <li>
+              <h4>Servicio Técnico Informático</h4>
+              <p>2008 - Actualmente</p>
+              <button id="open">Ver más</button>
+
+              <div id="modal_container" class="modal-container">
+                <div class="modal">
+                  <h3>Servicio Técnico Informático</h3>
+                  <ul>
+                    <li>
+                      Independiente - INFORMÁTICA TAFÍ
+                      <p>2018-Actualmente / Tafí del Valle, Tucumán.</p>
+                      <p>Servicio Técnico Informático y Diseño Gráfico.</p>
+                    </li>
+                    <li>
+                      Webmaster TAFINISTOS.COM
+                      <p>2020-2021 / Tafí del Valle, Tucumán</p>
+                      <p>
+                        Creación y mantenimiento del sitio web
+                        www.tafinistos.com con Wordpress.
+                      </p>
+                    </li>
+                    <li>
+                      ULTRANET INFORMÁTICA
+                      <p>2012-2018 / Ushuaia, Tierra del Fuego.</p>
+                      <p>
+                        Venta y reparación de insumos y equipos informáticos.
+                      </p>
+                      <p>Diseño Gráfico.</p>
+                      <p>
+                        Servicios Informáticos en diversas empresas de la ciudad
+                        de Ushuaia, Tierra del Fuego:
+                      </p>
+                      <p>
+                        <b> DINAMI-K Software House SRL</b>Soporte técnico
+                        Sistema de Emisión de Ticket y Control de Acceso
+                        (SETECA) en Parque Nacional Tierra del Fuego, redes,
+                        hardware.
+                      </p>
+                      <p>
+                        <b>BRASILEIROS EN USHUAIA</b>Mantenimiento Software y Hardware.
+                      </p>
+                      <p>
+                        <b
+                          >ADMINISTRACIÓN DE PARQUES NACIONALES TIERRA DEL
+                          FUEGO</b>Mantenimiento preventivo y
+                        correctivo de hardware, redes y sistemas.
+                      </p>
+                      <p>
+                        <b>FUEGUINO HOTEL PATAGONICO</b>Mantenimiento preventivo y correctivo de hardware, redes
+                        y sistemas.
+                      </p>
+                      <p>
+                        <b>GRINGRAF Soluciones Gráficas</b>Mantenimiento preventivo y correctivo de
+                        hardware, redes y sistemas.
+                      </p>
+                    </li>
+                    <li>
+                      REGI-DATA S.R.L.
+                      <p>2008-2012 / Ushuaia, Tierra del Fuego.</p>
+                      <p>
+                        Encargado Servicio Técnico. Técnico Fiscal Matriculado
+                        (Inicialización y reparación de Controladores Fiscales),
+                        Técnico en Informática (Reparación PCs, notebooks,
+                        impresoras,redes).
+                      </p>
+                    </li>
+                  </ul>
+                  <button id="close">Cerrar</button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <h4>Diseño Gráfico</h4>
+              <p>Freelance</p>
+              <p>2012 - Actualmente</p>
+
+              <button id="open">Ver más</button>
+
+              <div id="modal_container" class="modal-container">
+                <div class="modal">
+                  <h1>Disseño Gráfico</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Itaque assumenda dignissimos illo explicabo natus quia
+                    repellat, praesentium voluptatibus harum ipsam dolorem
+                    cumque labore sunt dicta consectetur, nesciunt maiores
+                    delectus maxime?
+                  </p>
+                  <button id="close">Cerrar</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <footer>
+    <footer></footer>
 
-    </footer>
-    <script src="script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
