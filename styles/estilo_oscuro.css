@@ -1,253 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .darkModeSwitch {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    width: 5rem;
-    height: 2.4rem;
-    font-size: 20px;
-    background: #b6b6b6;
-    color: aliceblue;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    border-radius: 1.5rem;
-    align-items: center;
-    justify-content: space-between;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 5rem;
+  height: 2.4rem;
+  font-size: 20px;
+  background: #b6b6b6;
+  color: aliceblue;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body {
-    background: rgb(6, 27, 27);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  background: rgb(6, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: aliceblue;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-   
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .container .izq {
-    position: relative;
-    background-color: rgb(24, 72, 73);
-    padding: 40px;
-
+  position: relative;
+  background-color: rgb(24, 72, 73);
+  padding: 40px;
 }
 
 .container .der {
-    position: relative;
-    background-color: rgb(59, 79, 80);
-    padding: 40px;
-    color: aliceblue;
+  position: relative;
+  background-color: rgb(59, 79, 80);
+  padding: 40px;
+  color: aliceblue;
 }
 
 .imgRedonda {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
 }
 
 .perfil h2 {
-    color: aliceblue;
-    padding-top: 10px;
-    font-weight: 400;
+  color: aliceblue;
+  padding-top: 10px;
+  font-weight: 400;
 }
 
 .perfil h3 {
-    color: aliceblue;
-    padding-top: 10px;
-    font-weight: 200;
+  color: aliceblue;
+  padding-top: 10px;
+  font-weight: 200;
 }
 
 .perfil {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgb(179, 125, 125);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(179, 125, 125);
 }
 
 .contacto {
-    padding-top: 40px;
-    color: aliceblue;
+  padding-top: 40px;
+  color: aliceblue;
 }
 
 .contacto h4 {
-    color: aliceblue;
-    font-weight: 300;
+  color: aliceblue;
+  font-weight: 300;
 }
 
 .contacto ul {
-    position: relative;
-    padding-top: 5px;
-    color: aliceblue;
-    font-weight: 200;
+  position: relative;
+  padding-top: 5px;
+  color: aliceblue;
+  font-weight: 200;
 }
 
 .contacto li {
-    position: relative;
-    list-style: none;
-    cursor: pointer;
+  position: relative;
+  list-style: none;
+  cursor: pointer;
 }
 
 .contacto ul li .icono {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: rgb(224, 166, 166);
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: rgb(224, 166, 166);
 }
 
 .contacto .texto {
-    color: aliceblue;
-    text-decoration-line: none;
+  color: aliceblue;
+  text-decoration-line: none;
 }
 
 .pdf {
-    font-weight: 500;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    border-bottom: 1px solid rgb(179, 125, 125);
-    color: aliceblue;
-    text-decoration-line: none;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgb(179, 125, 125);
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(179, 125, 125);
+  color: aliceblue;
+  text-decoration-line: none;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(179, 125, 125);
 }
 
 .aptitudes {
-    margin-top: 20px;
-    color: antiquewhite;
-    padding-bottom: 40px;
-    padding-top: 20px;
-    border-bottom: 1px solid rgb(179, 125, 125);
+  margin-top: 20px;
+  color: antiquewhite;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(179, 125, 125);
 }
 
 .aptitudes h4 {
-    color: aliceblue;
-    font-weight: 300;
+  color: aliceblue;
+  font-weight: 300;
 }
 
 .aptitudes ul {
-    position: relative;
-    padding-top: 5px;
-    color: aliceblue;
-    font-weight: 200;
+  position: relative;
+  padding-top: 5px;
+  color: aliceblue;
+  font-weight: 200;
 }
 
 .aptitudes li {
-    list-style: circle;
+  list-style: circle;
 }
 
 .idiomas {
-    margin-top: 20px;
-    color: antiquewhite;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(179, 125, 125)
+  margin-top: 20px;
+  color: antiquewhite;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(179, 125, 125);
 }
 
 .idiomas h4 {
-    color: aliceblue;
-    font-weight: 300;
+  color: aliceblue;
+  font-weight: 300;
 }
 
 .idiomas ul {
-    position: relative;
-    color: aliceblue;
-    font-weight: 200;
-    padding-top: 5px;
+  position: relative;
+  color: aliceblue;
+  font-weight: 200;
+  padding-top: 5px;
 }
 
 .idiomas .porcentaje {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: rgb(6, 27, 27);
-    display: block;
-    margin-top: 2px;
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: rgb(6, 27, 27);
+  display: block;
+  margin-top: 2px;
 }
 
 .idiomas .porcentaje div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: rgb(179, 125, 125)
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(179, 125, 125);
 }
 
 .idiomas li {
-    list-style: none;
-    padding-bottom: 10px;
+  list-style: none;
+  padding-bottom: 10px;
 }
 
 .hobbies {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .hobbies h4 {
-    color: aliceblue;
-    font-weight: 300;
+  color: aliceblue;
+  font-weight: 300;
 }
 
 .hobbies ul {
-    /* display: flex;
+  /* display: flex;
     grid-template-columns: repeat(4, 1fr); */
-    display: flex;
+  display: flex;
 }
 
 .hobbies ul li {
-    list-style: none;
-    margin-right: 15px;
-    color: aliceblue;
-    font-weight: 200;
-    font-size: 15px;
-    margin-top: 10px
+  list-style: none;
+  margin-right: 15px;
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .hobbies ul li .fa {
-    color: rgb(179, 125, 125);
-
+  color: rgb(179, 125, 125);
 }
 
 .der h3 {
-    color: aliceblue;
-    font-weight: 500;
+  color: aliceblue;
+  font-weight: 500;
 }
 
 .der li {
-    padding-top: 10px;
-    list-style: none;
+  padding-top: 10px;
+  list-style: none;
 }
 
 .experiencia {
-    padding-top: 30px;
+  padding-top: 30px;
+}
+
+.herramientas {
+  padding-top: 30px;
+}
+
+.herramientas > .logos {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1000px) {
-    
-    .container {
-        margin-top: 450px;
-        margin: 50px 10px;
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .container {
+    margin-top: 450px;
+    margin: 50px 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
